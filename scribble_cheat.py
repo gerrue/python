@@ -32,7 +32,7 @@ if __name__ == "__main__":
     # If not I want an Usage case to show up. I could put
     # with len(sys.argv) == 2 but I want a different Usage
     # case so anyone who uses it will know why it  is breaking
-    if len(sys.argv[1]) == 15:
+    if len(sys.argv[1]) == 7:
       # have to strip newline from input
       rack = sys.argv[1].strip()
     else:
